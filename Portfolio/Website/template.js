@@ -8,5 +8,6 @@ currentDate = day + '/' + month + '/' + year;
 document.getElementById("currentdate").innerHTML=currentDate;
 
 function thankMessage() {
-    document.getElementById("submission").InnerHTML = "Thanks for your response";
+    var submissionresponse = "Thanks for your response";
+    document.getElementById("submission").innerHTML=submissionresponse;
 }
