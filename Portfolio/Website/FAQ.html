@@ -30,8 +30,18 @@
         <br>
         <img src="FAQ image.png" alt="questions">
         <br>
-        Any other questions? Head to the contents page and ask me anything.
+        Any other questions? Throw a Question below and i'll submit a response
     </p>
+    <div class="formWrap">
+    <form>
+        <label for=subject>Subject</label><br>
+        <input type="text" id="subject" placeholder="Subject"><br>
+        <label for="question">Comment</label><br>
+        <textarea id="question" name="question" placeholder="Question here.."></textarea><br>
+        <input onclick="thankMessage()" type="submit" name="submit" id="submit">
+    </form>
+    <div class="submission"></div>
+    </div>
 </div>
 <div class="pagelinks">
     <h2 class="pageheading">

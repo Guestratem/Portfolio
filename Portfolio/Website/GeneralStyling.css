@@ -16,6 +16,7 @@ input {
     background-color: white;
     border:5px darkslategrey;
     border-radius: 5px;
+    width: 300px;
 }
 
 button {
@@ -134,7 +135,7 @@ button:hover {
     width: 50px;
 }
 
-#message {
+#message, textarea {
     height: 100px;
     width: 300px;
     border-color:darkslategrey;
@@ -152,6 +153,10 @@ button:hover {
     height: 40%;
     max-width: 800px;
     max-height: 500px;
+}
+
+#submit {
+    width: initial;
 }
 
 html,body {
