@@ -159,6 +159,12 @@ button:hover {
     width: initial;
 }
 
+#currentpage {
+    box-shadow: 5px 5px 2.5px white;
+    background-color: #FDC82F;
+    color: black;
+}
+
 html,body {
     margin: 0px;
     width: 100%;
