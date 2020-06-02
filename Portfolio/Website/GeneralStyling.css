@@ -1,0 +1,149 @@
+header {
+    background-color: black;
+    width: 100%;
+    height: fit-content;
+    margin: 0px;
+    border: 20px black;
+    border-style: solid;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+button {
+    color: white;
+    background-color: #C00000;
+    border: 0px;
+    width: 145px;
+    height: 35px;
+    border: solid black 1px;
+}
+
+button:hover {
+    background-color: #FDC82F;
+    color: black;
+    border: 0px;
+    width: 145px;
+    height: 35px;
+    border: solid black 1px;
+}
+
+.pageheading {
+    margin: 5px;
+    color: white;
+}
+
+.ipHeading {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: bold;
+}
+
+.headertxt {
+    font-size: 55px;
+    background: -webkit-linear-gradient(180deg , rgba(95,206,255,1) 0%, rgba(255,231,121,1) 50%, rgba(255,118,99,1) 100%);  
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+}
+
+.pagelinks {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 0px;
+    padding: 5px;
+    color: white;
+    background-color: black;
+    width: 150px;
+    height: 100%;
+    margin: 5px;
+}
+
+.imageContent {
+    position: absolute;
+    width: auto;
+    height: auto;
+    background-color: black;
+    color: white;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    left: 160px;
+    top: 300px;
+    Border: solid black 10px;
+}
+
+
+.textContent {
+    position: absolute;
+    left: 160px;
+    width: 85%;
+    height: auto;
+    background-color: black;
+    color: white;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    max-width: inherit  ;
+}
+
+.footerWrap {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
+
+.footer {
+    width: 100%;
+    margin: auto;
+}
+
+.footerContent {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    height: 50px;
+    padding: 5px;
+}
+
+.phHeading {
+    font-weight: bold;
+    margin: 2px;
+    font-size: 20px;
+}
+
+.logo {
+    position: relative;
+    left: 0px;
+    height: 50px;
+    width: 50px;
+}
+
+#currentdate {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#band {
+    width: 80%;
+    height: 40%;
+    max-width: 800px;
+    max-height: 500px;
+}
+
+#emailButton, #phoneButton, #addressButton {
+    width: 200px;
+    height: 50px;
+}
+
+html,body {
+    margin: 0px;
+    width: 100%;
+    background-color: black;
+    max-width: 1900px;
+    height: max-content;
+}

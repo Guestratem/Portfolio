@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel= "stylesheet" type="text/css" href="GeneralStyling.css">
+    <link rel="stylesheet" type="text/css" href="slideshowstyle.css"
+</head>
+<body>
+<Header>
+    <div class= "headertxt">
+        Samuel Pritchard's Portfolio
+    </div>
+</Header>
+<div class="textContent">
+    <h1 class="ipHeading">
+        Skills
+    </h1>
+    <p>
+        My main skillset now is focused on computing and IT with a focus on networking. This is difficult to show here aside from topography maps. My main creative skillset revolves around 3d modelling with a focus on photorealism which can be seen down below. Another skill I am developing is programming by learning a couple of languages, my current focus for this being JavaScript and C++.
+        <br>Below there is a showcase of the skills I possess.
+        
+    </p>
+</div>
+<div class="pagelinks">
+    <h2 class="pageheading">
+    Pages
+    </h2>
+    <br>
+    <button type="button" onclick="window.location = 'HomePage.html'">Home</button>
+    <br>
+    <button type="button" onclick="window.location = 'Skills.html'">Skills</button>
+    <br>
+    <button type="button" onclick="window.location = 'Contacts.html'">Contacts</button>
+    <br>
+    <button type="button" onclick="window.location = 'Interests.html'">Interests</button>
+    <br>
+    <button type="button" onclick="window.location = 'Education.html'">Educational history</button>
+    <br>
+    <button type="button" onclick="window.location = 'Profession.html'">Professional history</a>
+    <br>
+    <button type="button" onclick="window.location ='References.html'">References</button>
+    <br>
+    <button type="button" onclick="window.location = 'FAQ.html'">FAQ</button>
+</div>
+<div class= "imageContent">
+    <div class="slideshow">
+        <div class="slides fade">
+            <div class="slidenumber">1 / 3</div>
+            <img src="band.png" style="width:100%">
+            <div class="captiontext">Photorealistic rendering of a ring</div>
+        </div>
+
+        <div class="slides fade">
+            <div class="slidenumber">2 / 3</div>
+            <img src="Futebol.png" style="width:100%">
+            <div class="captiontext">Photorealistic football with stitching</div>
+        </div>
+
+        <div class="slides fade">
+            <div class="slidenumber">3 / 3</div>
+            <img src="poor attempt at a teddy bear.png" style="width: 100%">
+            <div class="captiontext">Early experimentation with particle effects</div>
+        </div>
+
+        <a class="previous" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <div style="text-align: center">
+        <span class="dot" onclick="currentslide(1)"></span>
+        <span class="dot" onclick="currentslide(2)"></span>
+        <span class="dot" onclick="currentslide(3)"></span>
+    <div class="widgetWrap">
+    <div class="github-widget" data-username="Guestratem"></div>
+    </div>
+</div>
+    
+</div>
+<br>
+
+<script src="https://unpkg.com/github-card@1.2.1/dist/widget.js"></script>
+<div class="footerWrap">
+    <div class="footer">
+        <div class ="footerContent">
+             Created by Samuel Pritchard.
+             <div id="currentdate"></div>
+        </div>
+    </div>
+</div>
+<script src="template.js"></script>
+<script src="slideshow.js"></script>
+</body>
+</html>
