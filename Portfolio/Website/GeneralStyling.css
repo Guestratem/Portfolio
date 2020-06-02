@@ -14,7 +14,7 @@ p {
 
 input {
     background-color: white;
-    border:5px black;
+    border:5px darkslategrey;
     border-radius: 5px;
 }
 
@@ -122,6 +122,11 @@ button:hover {
     font-size: 20px;
 }
 
+.formWrap {
+    width: auto;
+    height: auto;
+}
+
 .logo {
     position: relative;
     left: 0px;
@@ -130,9 +135,9 @@ button:hover {
 }
 
 #message {
-    height: 300px;
-    width: 100px;
-    border-color: black;
+    height: 100px;
+    width: 300px;
+    border-color:darkslategrey;
     background-color: white;
     border-radius: 10px;
 }
@@ -147,11 +152,6 @@ button:hover {
     height: 40%;
     max-width: 800px;
     max-height: 500px;
-}
-
-#emailButton, #phoneButton, #addressButton {
-    width: 200px;
-    height: 50px;
 }
 
 html,body {
